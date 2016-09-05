@@ -13,7 +13,7 @@ import static org.junit.Assert.assertEquals;
 public class CsvSplitterTest {
 
     private final static String inputFileString = "test\\resources\\reference-input.csv";
-    private final static String outputDirectoryString = "test\\resources";
+     private final static String outputDirectoryString = "test\\resources";
     private final static int numberOfOutputFiles = 3;
 
     @Test
@@ -31,7 +31,8 @@ public class CsvSplitterTest {
 
         assertEquals(actualOutputFile0, referenceOutputFile0);
         assertEquals(actualOutputFile1, referenceOutputFile1);
-        assertEquals(actualOutputFile2, referenceOutputFile2);
+        assertEquals(actualOutputFile2, referenceOutputFile2); 
+        
     }
 
     @AfterClass
